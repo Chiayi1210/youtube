@@ -1,10 +1,4 @@
 import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
-import streamlit as st
 import requests
 import openai
 import os
@@ -17,13 +11,13 @@ api_key = st.secrets["OPENAI_API_KEY"]
 
 # GPT API 設定（請修改為你的 API 地址和密鑰）
 
-"""# 讀取環境變數
-load_dotenv("api.env")
-api_key = os.getenv("OPENAI_API_KEY")
-if api_key:
-    print("✅ OpenAI API Key 讀取成功:", api_key[:10] + "..." + api_key[-5:])
-else:
-    print("❌ 無法讀取 OpenAI API Key，請檢查 API.ENV 文件！")"""
+# 讀取環境變數
+#load_dotenv("api.env")
+#api_key = os.getenv("OPENAI_API_KEY")
+#if api_key:
+#    print("✅ OpenAI API Key 讀取成功:", api_key[:10] + "..." + api_key[-5:])
+#else:
+#   print("❌ 無法讀取 OpenAI API Key，請檢查 API.ENV 文件！")"""
 
 
 #API_URL = "https://api.openai.com/v1/assistants/g-67b7e49be7d481919a4022c5d83e032b-video-editing-tips/completions"  # 替換成你的 GPT API 伺服器地址
